@@ -4,9 +4,9 @@ autocoding - 自动生成代码
 可自动生成　xml,mapper,entity,service,controler
 基于springmvc ＋　mybatis
 
-目前依赖比较强　
-  public static void main(String [] args){
-
+目前依赖比较强　https://github.com/wumingrong/sbc.git　此项目可直接使用
+  
+    public static void main(String [] args){
         AutoCode autoCode = new AutoCode();
         autoCode.setDriver("com.mysql.jdbc.Driver")
                 .setUrl("jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf8")
